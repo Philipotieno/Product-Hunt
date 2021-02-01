@@ -5,7 +5,7 @@ import NavHeader from "../components/Header/NavHeader";
 const Signup = () => {
   return (
     <IonPage>
-      <NavHeader title="Sign Up" />
+      <NavHeader title="Register" />
       <IonContent>
         <IonItem line="full">
           <IonLabel position="floating">Username</IonLabel>

@@ -14,7 +14,7 @@ import NavHeader from "../components/Header/NavHeader";
 const Forgot = () => {
   return (
     <IonPage>
-      <NavHeader title="Forgot Password" />
+      <NavHeader title="Reset Password" />
       <IonContent>
         <IonItem>
           <IonLabel position="floating">Email</IonLabel>

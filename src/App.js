@@ -63,7 +63,7 @@ const App = () => {
             <Route path="/search" component={Search} />
             <Route path="/profile" component={Profile} />
             <Route component={() => <Redirect to="/home" />} />
-            <Route path="/edit-profole" component={EditProfile} />
+            <Route path="/edit-profile" component={EditProfile} />
             <Route path="/register" component={Signup} />
             <Route path="/login" component={Login} />
             <Route path="/forgot-password" component={Forgot} />
