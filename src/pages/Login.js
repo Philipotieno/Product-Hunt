@@ -24,7 +24,7 @@ const Login = () => {
 
         <IonItem>
           <IonLabel position="floating">Password</IonLabel>
-          <IonInput name="password" type="text" required></IonInput>
+          <IonInput name="password" type="password" required></IonInput>
         </IonItem>
 
         <IonRow>
