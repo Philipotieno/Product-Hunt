@@ -9,6 +9,7 @@ import {
   IonRow,
   IonCol,
   IonButton,
+  IonLoading,
 } from "@ionic/react";
 import NavHeader from "../components/Header/NavHeader";
 import { toast } from "../utils/toast";
@@ -47,6 +48,7 @@ const Login = (props) => {
   return (
     <IonPage>
       <NavHeader title="Log in" />
+      <IonLoading message={"Please wait..."} isOpen={busy} />
       <IonContent>
         <IonItem>
           <IonLabel position="floating">Email</IonLabel>
@@ -86,7 +88,7 @@ const Login = (props) => {
 
         <IonRow>
           <IonCol class="ion-text-center ion-padding vertical">
-            <IonRouterLink routerLink={"/forgot"}>
+            <IonRouterLink routerLink={"/forgot-password"}>
               Forgot Password
             </IonRouterLink>
           </IonCol>

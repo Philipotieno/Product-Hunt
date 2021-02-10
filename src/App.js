@@ -49,7 +49,7 @@ import "@ionic/react/css/display.css";
 import "./theme/variables.css";
 
 const App = () => {
-  const [use, setUser] = useAuth();
+  const [user, setUser] = useAuth();
   return (
     <IonApp>
       <IonReactRouter>
@@ -89,7 +89,7 @@ const App = () => {
                 <IonIcon icon={searchOutline} />
                 <IonLabel>Search</IonLabel>
               </IonTabButton>
-              <IonTabButton tab="profile" href="/home">
+              <IonTabButton tab="profile" href="/profile">
                 <IonIcon icon={personCircleOutline} />
                 <IonLabel>Profile</IonLabel>
               </IonTabButton>
