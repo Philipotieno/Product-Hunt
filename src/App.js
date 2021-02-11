@@ -22,7 +22,7 @@ import Profile from "./pages/Profile";
 import Search from "./pages/Search";
 import Submit from "./pages/Submit";
 import Trending from "./pages/Trending";
-import EditProfile from "./pages/Editprofile";
+import EditProfile from "./pages/EditProfile";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Forgot from "./pages/Forgot";
